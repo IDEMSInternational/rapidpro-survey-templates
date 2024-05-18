@@ -1,2 +1,2 @@
-parenttext_pipeline@git+https://github.com/IDEMSInternational/parenttext-pipeline.git@feat/inheritance
+parenttext_pipeline@git+https://github.com/IDEMSInternational/parenttext-pipeline.git@1.1.0
 
