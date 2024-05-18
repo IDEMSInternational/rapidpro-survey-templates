@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "version": "1.0.0",
+        "pipeline_version": "0.2.0"
+    },
+    "flows_outputbasename": "parenttext_all",
+    "output_split_number": 1,
+    "sheet_names" : {
+        "T_content" : "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
+        "T_onboarding" : "1Sl0Jl_N4cGQi2INmE_EnX_aYUMUrUB6cKbuWVPzirtY",
+        "T_safeguarding" : "1bWOyM5yShTTJSaxwqRCrjUzkwbp7DF6_nSF_96YcZ2c",
+        "T_delivery" : "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU",
+        "T_menu" : "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE",
+
+        "ab_testing_sheet_ID" : "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s",
+        "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI"
+    },
+    "sources": {
+        "flow_definitions": {
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                "T_onboarding",
+                "T_content",
+                "T_safeguarding",
+                "T_delivery",
+                "T_menu"
+            ]
+        },
+        "edits_pretranslation": {
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                "ab_testing_sheet_ID"
+            ]
+        },
+        "edits_posttranslation": {
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                "eng_edits_sheet_ID"
+            ]
+        }
+    }
+}
