@@ -44,6 +44,15 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_SON_17}.*",
+        "change": "{F1_SON_17}",
+        "condition_var": "",
+        "category": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_SON_17\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{F1_DAUGHTER_16}.*",
         "change": "{F1_DAUGHTER_16}",
         "condition_var": "",
@@ -107,6 +116,15 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_DAUGHTER_17}.*",
+        "change": "{F2_DAUGHTER_17}",
+        "condition_var": "",
+        "category": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_17\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{F2_SON_15}.*",
         "change": "{F2_SON_15}",
         "condition_var": "",
@@ -134,10 +152,28 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_SON_3}.*",
+        "change": "{F2_SON_3}",
+        "condition_var": "",
+        "category": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_SON_3\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{F2_DAUGHTER_3}.*",
         "change": "{F2_DAUGHTER_3}",
         "condition_var": "",
         "category": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_3\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_DAUGHTER_8}.*",
+        "change": "{F2_DAUGHTER_8}",
+        "condition_var": "",
+        "category": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_8\"][contact.language])"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -179,10 +215,28 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGHTER_4}.*",
+        "change": "{F3_DAUGHTER_4}",
+        "condition_var": "",
+        "category": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_4\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
         "node_identifier": "Regex:.*{F3_SON_4}.*",
         "change": "{F3_SON_4}",
         "condition_var": "",
         "category": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_SON_4\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_SON_7}.*",
+        "change": "{F3_SON_7}",
+        "condition_var": "",
+        "category": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_SON_7\"][contact.language])"
       },
       {
         "type_of_edit": "replace_bit_of_text",
