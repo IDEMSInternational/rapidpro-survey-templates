@@ -23,7 +23,14 @@
         "flow_name": "",
         "sheet_name": "age-customisation-messages",
         "status": "released",
-        "order": "0"
+        "order": "-1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "insert-child-age-name",
+        "status": "released",
+        "order": "-1"
       }
     ],
     "age-customisation-messages": [
@@ -132,6 +139,37 @@
         "category:child_nickname": "@fields.child_nickname",
         "condition:child_nickname": "",
         "condition_type:child_nickname": "has_text"
+      }
+    ],
+    "insert-child-age-name": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{Age Group}.*",
+        "change": "{Age Group}",
+        "condition_var": "@fields.age_group_for_tips",
+        "category": "Child",
+        "category:teen": "Teen",
+        "condition:teen": "teen",
+        "condition_type:teen": "has_any_word"
+      }
+    ],
+    "insert-child-age-name-baby": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{Age Group}.*",
+        "change": "{Age Group}",
+        "condition_var": "@fields.age_group_for_tips",
+        "category": "Child",
+        "category:teen": "Teen",
+        "condition:teen": "teen",
+        "condition_type:teen": "has_any_word",
+        "category:baby": "Baby",
+        "condition:baby": "baby",
+        "condition_type:baby": "has_any_word"
       }
     ],
     "Sheet3": [
