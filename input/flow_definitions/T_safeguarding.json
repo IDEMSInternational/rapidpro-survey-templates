@@ -846,7 +846,7 @@
     "safeguarding_trigger_wrapper_program": [
       {
         "row_id": "",
-        "type": "save_value",
+        "type": "save_flow_result",
         "from": "",
         "loop_variable": "",
         "condition": "",
