@@ -12,7 +12,7 @@
       {
         "type": "template_definition",
         "sheet_name": "template_survey_question_wrapper",
-        "template_arguments": ""
+        "template_arguments": "survey_defaults;sheet|"
       },
       {
         "type": "template_definition",
@@ -2154,7 +2154,7 @@
         "condition_type": "",
         "condition_name": "",
         "include_if": "",
-        "message_text": "Sorry, I don't understand what you mean.",
+        "message_text": "{{survey_defaults[\"unrecognised_response_message\"].value}}",
         "choices": "",
         "save_name": "",
         "image": "",
@@ -3006,7 +3006,7 @@
         "condition_type": "",
         "condition_name": "",
         "include_if": "",
-        "message_text": "Sorry, I don't understand what you mean.",
+        "message_text": "{{survey_defaults[\"unrecognised_response_message\"].value}}",
         "choices": "",
         "save_name": "",
         "attachments": "",
