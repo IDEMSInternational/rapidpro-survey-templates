@@ -2987,7 +2987,7 @@
         "condition_var": "",
         "condition_type": "has_only_phrase",
         "condition_name": "skip",
-        "include_if": "{@skipoption.text!=''@}",
+        "include_if": "{@skipoption.choice!=''@}",
         "message_text": "{{skipoption.value}}",
         "choices": "",
         "save_name": "variable",
