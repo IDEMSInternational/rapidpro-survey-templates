@@ -2995,6 +2995,24 @@
         "image": "",
         "audio": "",
         "video": ""
+      },
+      {
+        "row_id": "",
+        "type": "save_flow_result",
+        "from": "",
+        "loop_variable": "",
+        "condition": "",
+        "condition_var": "",
+        "condition_type": "",
+        "condition_name": "",
+        "include_if": "",
+        "message_text": "yes",
+        "choices": "",
+        "save_name": "skip",
+        "attachments": "",
+        "image": "",
+        "audio": "",
+        "video": ""
       }
     ],
     "template_survey_question_type_input_skip_qs": [
