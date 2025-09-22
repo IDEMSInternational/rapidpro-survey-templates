@@ -199,6 +199,22 @@
       {
         "ID": "unrecognised_response_message",
         "value": "Sorry, I don't understand what you mean."
+      },
+      {
+        "ID": "yes_qr",
+        "value": "Yes"
+      },
+      {
+        "ID": "yes_args",
+        "value": "yes y yeah yep"
+      },
+      {
+        "ID": "no_qr",
+        "value": "No"
+      },
+      {
+        "ID": "no_args",
+        "value": "no nope n"
       }
     ],
     "template_survey_wrapper": [
@@ -3314,8 +3330,26 @@
         "condition": "{{opt.text}}",
         "condition_var": "",
         "condition_type": "has_only_phrase",
-        "condition_name": "",
+        "condition_name": "{{opt.text}}",
         "include_if": "{@opt.text != \"\"@}",
+        "message_text": "{{opt.value}}",
+        "choices": "",
+        "save_name": "variable",
+        "attachments": "",
+        "image": "",
+        "audio": "",
+        "video": ""
+      },
+      {
+        "row_id": "",
+        "type": "save_flow_result",
+        "from": "1",
+        "loop_variable": "",
+        "condition": "{% for a in opt.aliases-%}\n{{a}} {%endfor%}",
+        "condition_var": "",
+        "condition_type": "has_any_word",
+        "condition_name": "{{opt.text}}",
+        "include_if": "{@opt.aliases and opt.aliases|length >0@}",
         "message_text": "{{opt.value}}",
         "choices": "",
         "save_name": "variable",
